@@ -1,0 +1,266 @@
+@font-face{
+    font-family: "FallingSkyBold";
+    src: url(../Fonts/FallingSky/FallingSkyBold.otf);
+}
+@font-face{
+    font-family: "FallingSkyCond";
+    src: url(../Fonts/FallingSky/FallingSkyCond.otf);
+}
+@font-face{
+    font-family: "FallingSkyRegular";
+    src: url(../Fonts/FallingSky/FallingSkyRegular.otf);
+}
+@font-face{
+    font-family: "RobotoBlack";
+    src: url(../Fonts/Roboto/RobotoBlack.ttf);
+}
+@font-face{
+    font-family: "RobotoBold";
+    src: url(../Fonts/Roboto/RobotoBold.ttf);
+}
+@font-face{
+    font-family: "RobotoLight";
+    src: url(../Fonts/Roboto/RobotoLight.ttf);
+}
+@font-face{
+    font-family: "RobotoMedium";
+    src: url(../Fonts/Roboto/RobotoMedium.ttf);
+}
+@font-face{
+    font-family: "RobotoRegular";
+    src: url(../Fonts/Roboto/RobotoRegular.ttf);
+}
+@font-face{
+    font-family: "RobotoThin";
+    src: url(../Fonts/Roboto/RobotoThin.ttf);
+}
+
+
+h1{
+    font-family: "FallingSkyBold";
+    font-size: 250%;
+}
+
+h2{
+    font-family: "RobotoMedium";
+    font-size: 220%;
+}
+h3{
+    font-family: "RobotoThin";
+    font-size: 220%;
+}
+
+h4{font-family: "RobotoMedium";
+    font-size: 140%;
+}
+p{
+    font-family: "RobotoRegular";
+    font-size: 130%;
+}
+a{
+    font-family: "RobotoThin";
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6% 4% 8%;
+}
+
+.NavbarRight a{
+    margin-right: 12px;
+}
+
+.NavbarRight {
+    display: flex;
+    align-items: center;
+}
+
+.Iconos {
+    width: 30px;
+    height: 25px;
+}
+
+.Iconos-Nav {
+    width: 30px;
+    height: 25px;
+}
+
+.IconosSkillsGroup{
+    display: flex;
+    align-items: center;
+    padding: 9% 9% 4% 15%;
+}
+.IconosSkills{
+    width: 100px;
+    height: 100px;
+}
+.IconosSkills2{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+a{
+    font-family: "RobotoThin";
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#Lenguaje{
+    cursor: pointer;;
+}
+
+
+.Texto-Derecha {
+    width: 50% ;
+
+}
+.Presentacion{
+    display: flex;
+    align-items: flex-start;
+    padding: 0% 80px 0% 80px;
+}
+
+.Imagenes-Izquierda{
+    width: 70%;
+    text-align: left;
+}
+.headshot2{
+    width: 538px;
+    height:359px;
+    background-image: url(../Imagenes/headshot3.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.headshot2:hover{
+    background-image: url(../Imagenes/headshot2.png);
+    transition: 3s;
+}
+
+
+.ButtonMail{
+    width: 185px;
+    height: 50px;
+    display:inline-block;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "RobotoMedium";
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonMail:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    -webkit-animation: swing-in-bottom-bck 0.9s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+    animation: swing-in-bottom-bck 0.9s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+    
+}
+
+.ButtonMail:active{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    }
+@-webkit-keyframes swing-in-bottom-bck {
+    0% {
+      -webkit-transform: rotateX(-70deg);
+              transform: rotateX(-70deg);
+      -webkit-transform-origin: bottom;
+              transform-origin: bottom;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      -webkit-transform-origin: bottom;
+              transform-origin: bottom;
+      opacity: 1;
+    }
+  }
+  @keyframes swing-in-bottom-bck {
+    0% {
+      -webkit-transform: rotateX(-70deg);
+              transform: rotateX(-70deg);
+      -webkit-transform-origin: bottom;
+              transform-origin: bottom;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      -webkit-transform-origin: bottom;
+              transform-origin: bottom;
+      opacity: 1;
+    }
+  }
+  
+
+footer{
+    text-align: center;
+    padding: 10% 9% 4% 9%;
+}
+
+.LogoPersonal {
+    width: 90px;
+    height: 90px;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    margin-left: 45%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.color-change-4x {
+	-webkit-animation: color-change-4x 6s infinite alternate both;
+            animation: color-change-4x 6s infinite alternate both;
+}
+
+
+@-webkit-keyframes color-change-4x {
+    0% {
+      background: #0a0a0a;
+    }
+    33.3333% {
+      background: #3f3f3f;
+    }
+    66.666% {
+      background: #9b9b9b;
+    }
+    100% {
+      background: #ececec;
+    }
+  }
+  @keyframes color-change-4x {
+    0% {
+      background: #0a0a0a;
+    }
+    33.3333% {
+      background: #3f3f3f;
+    }
+    66.666% {
+      background: #9b9b9b;
+    }
+    100% {
+      background: #ececec;
+    }
+  }
+
+  .Movement{
+      padding-top: 100px;
+  }
+
